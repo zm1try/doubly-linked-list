@@ -78,7 +78,6 @@ describe('LinkedList', () => {
             list.append(47);
 
             list.insertAt(position, data);
-
             expect(list.at(position)).to.equal(data);
         });
 
@@ -134,7 +133,6 @@ describe('LinkedList', () => {
             list.append(5);
 
             list.deleteAt(2);
-
             expect(list.at(2)).to.equal(4);
         });
     });
